@@ -235,6 +235,8 @@ module gen1_scramble
           end
         end
 
+
+        //---------------------------------------------------------------------
         //third stage
         if (Q.skp_os == '0) begin
           lfsr_swapped[byte_idx] = ({<<{lfsr_out[byte_idx]}});
